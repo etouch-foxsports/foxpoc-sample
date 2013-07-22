@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="testDataFilePath" value="E:\Tranings_Test\foxpoc-sample\src\test\resources\TestShakeAndBakeHomePage.xls"/>
+  <parameter name="configFileName" value="src/test/resources/config.properties"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="test.etouch.foxpoc.shakenbake.TestShakeAndBakeHeader">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loadTestData"/>
+          <include name="beforeSuite"/>
+          <include name="prepareBeforeClass"/>
+          <include name="testSbMsnHeaderMenuItemTextAndLinks"/>
+          <include name="testSbHeaderElementPlacements"/>
+        </methods>
+      </class> <!-- test.etouch.foxpoc.shakenbake.TestShakeAndBakeHeader -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

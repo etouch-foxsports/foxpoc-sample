@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="25" passed="25">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="908664" started-at="2013-07-15T11:38:49Z" finished-at="2013-07-15T11:53:58Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="908664" started-at="2013-07-15T11:38:49Z" finished-at="2013-07-15T11:53:58Z">
+      <class name="test.etouch.foxpoc.shakenbake.TestShakeAndBakeHeader">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:test.etouch.foxpoc.shakenbake.TestShakeAndBakeHeader@2855e552]" name="beforeSuite" is-config="true" duration-ms="3044" started-at="2013-07-15T17:08:49Z" finished-at="2013-07-15T17:08:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7edfff20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="loadTestData(org.testng.ITestContext)[pri:0, instance:test.etouch.foxpoc.shakenbake.TestShakeAndBakeHeader@2855e552]" name="loadTestData" is-config="true" duration-ms="0" started-at="2013-07-15T17:08:52Z" finished-at="2013-07-15T17:08:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7edfff20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadTestData -->
+        <test-method status="PASS" signature="prepareBeforeClass()[pri:0, instance:test.etouch.foxpoc.shakenbake.TestShakeAndBakeHeader@2855e552]" name="prepareBeforeClass" is-config="true" duration-ms="903687" started-at="2013-07-15T17:08:52Z" finished-at="2013-07-15T17:23:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareBeforeClass -->
+        <test-method status="PASS" signature="testSbHeaderElementPlacements(java.lang.String, java.lang.String)[pri:0, instance:test.etouch.foxpoc.shakenbake.TestShakeAndBakeHeader@2855e552]" name="testSbHeaderElementPlacements" duration-ms="1062" started-at="2013-07-15T17:23:56Z" data-provider="tafDataProvider" finished-at="2013-07-15T17:23:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[partnerWrapper]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/html/body/div[1]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSbHeaderElementPlacements -->
+        <test-method status="PASS" signature="testSbHeaderElementPlacements(java.lang.String, java.lang.String)[pri:0, instance:test.etouch.foxpoc.shakenbake.TestShakeAndBakeHeader@2855e552]" name="testSbHeaderElementPlacements" duration-ms="14" started-at="2013-07-15T17:23:57Z" data-provider="tafDataProvider" finished-at="2013-07-15T17:23:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[headerContainer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/html/body/header/div[1]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSbHeaderElementPlacements -->
+        <test-method status="PASS" signature="testSbHeaderElementPlacements(java.lang.String, java.lang.String)[pri:0, instance:test.etouch.foxpoc.shakenbake.TestShakeAndBakeHeader@2855e552]" name="testSbHeaderElementPlacements" duration-ms="16" started-at="2013-07-15T17:23:57Z" data-provider="tafDataProvider" finished-at="2013-07-15T17:23:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fs-msn-bar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//*[@id="fs-msn-bar"]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSbHeaderElementPlacements -->
+        <test-method status="PASS" signature="testSbHeaderElementPlacements(java.lang.String, java.lang.String)[pri:0, instance:test.etouch.foxpoc.shakenbake.TestShakeAndBakeHeader@2855e552]" name="testSbHeaderElementPlacements" duration-ms="16" started-at="2013-07-15T17:23:57Z" data-provider="tafDataProvider" finished-at="2013-07-15T17:23:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[msn-menu-items]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//*[@id="msn-menu-items"]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSbHeaderElementPlacements -->
+        <test-method status="PASS" signature="testSbHeaderElementPlacements(java.lang.String, java.lang.String)[pri:0, instance:test.etouch.foxpoc.shakenbake.TestShakeAndBakeHeader@2855e552]" name="testSbHeaderElementPlacements" duration-ms="16" started-at="2013-07-15T17:23:57Z" data-provider="tafDataProvider" finished-at="2013-07-15T17:23:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[msn-logo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//*[@id="msn-menu-items"]/li[1]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSbHeaderElementPlacements -->
+        <test-method status="PASS" signature="testSbHeaderElementPlacements(java.lang.String, java.lang.String)[pri:0, instance:test.etouch.foxpoc.shakenbake.TestShakeAndBakeHeader@2855e552]" name="testSbHeaderElementPlacements" duration-ms="17" started-at="2013-07-15T17:23:57Z" data-provider="tafDataProvider" finished-at="2013-07-15T17:23:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[msn-more]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//*[@id="msn-more"]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSbHeaderElementPlacements -->
+        <test-method status="PASS" signature="testSbHeaderElementPlacements(java.lang.String, java.lang.String)[pri:0, instance:test.etouch.foxpoc.shakenbake.TestShakeAndBakeHeader@2855e552]" name="testSbHeaderElementPlacements" duration-ms="17" started-at="2013-07-15T17:23:57Z" data-provider="tafDataProvider" finished-at="2013-07-15T17:23:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[msn-Outlook.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//*[@id="msn-menu-items"]/li[3]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSbHeaderElementPlacements -->
+        <test-method status="PASS" signature="testSbHeaderElementPlacements(java.lang.String, java.lang.String)[pri:0, instance:test.etouch.foxpoc.shakenbake.TestShakeAndBakeHeader@2855e552]" name="testSbHeaderElementPlacements" duration-ms="16" started-at="2013-07-15T17:23:57Z" data-provider="tafDataProvider" finished-at="2013-07-15T17:23:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[msn-Mobile]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//*[@id="msn-menu-items"]/li[4]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSbHeaderElementPlacements -->
+        <test-method status="PASS" signature="testSbHeaderElementPlacements(java.lang.String, java.lang.String)[pri:0, instance:test.etouch.foxpoc.shakenbake.TestShakeAndBakeHeader@2855e552]" name="testSbHeaderElementPlacements" duration-ms="15" started-at="2013-07-15T17:23:57Z" data-provider="tafDataProvider" finished-at="2013-07-15T17:23:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[msn-Bing]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//*[@id="msn-menu-items"]/li[5]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSbHeaderElementPlacements -->
+        <test-method status="PASS" signature="testSbHeaderElementPlacements(java.lang.String, java.lang.String)[pri:0, instance:test.etouch.foxpoc.shakenbake.TestShakeAndBakeHeader@2855e552]" name="testSbHeaderElementPlacements" duration-ms="12" started-at="2013-07-15T17:23:57Z" data-provider="tafDataProvider" finished-at="2013-07-15T17:23:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[msn-Rewards-link]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//*[@id="msn-menu-items"]/li[6]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSbHeaderElementPlacements -->
+        <test-method status="PASS" signature="testSbHeaderElementPlacements(java.lang.String, java.lang.String)[pri:0, instance:test.etouch.foxpoc.shakenbake.TestShakeAndBakeHeader@2855e552]" name="testSbHeaderElementPlacements" duration-ms="24" started-at="2013-07-15T17:23:57Z" data-provider="tafDataProvider" finished-at="2013-07-15T17:23:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[msn-Rewards-text]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//*[@id="msn-menu-items"]/li[6]/a[1]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSbHeaderElementPlacements -->
+        <test-method status="PASS" signature="testSbHeaderElementPlacements(java.lang.String, java.lang.String)[pri:0, instance:test.etouch.foxpoc.shakenbake.TestShakeAndBakeHeader@2855e552]" name="testSbHeaderElementPlacements" duration-ms="16" started-at="2013-07-15T17:23:57Z" data-provider="tafDataProvider" finished-at="2013-07-15T17:23:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[msn-Rewards-badge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//*[@id="msn-menu-items"]/li[6]/a[2]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSbHeaderElementPlacements -->
+        <test-method status="PASS" signature="testSbHeaderElementPlacements(java.lang.String, java.lang.String)[pri:0, instance:test.etouch.foxpoc.shakenbake.TestShakeAndBakeHeader@2855e552]" name="testSbHeaderElementPlacements" duration-ms="14" started-at="2013-07-15T17:23:57Z" data-provider="tafDataProvider" finished-at="2013-07-15T17:23:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fsSiteSearch]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//*[@id="fs-msn-bar"]/div/div]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSbHeaderElementPlacements -->
+        <test-method status="PASS" signature="testSbHeaderElementPlacements(java.lang.String, java.lang.String)[pri:0, instance:test.etouch.foxpoc.shakenbake.TestShakeAndBakeHeader@2855e552]" name="testSbHeaderElementPlacements" duration-ms="14" started-at="2013-07-15T17:23:57Z" data-provider="tafDataProvider" finished-at="2013-07-15T17:23:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fox-search-input-box]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//*[@id="search"]/div[1]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSbHeaderElementPlacements -->
+        <test-method status="PASS" signature="testSbHeaderElementPlacements(java.lang.String, java.lang.String)[pri:0, instance:test.etouch.foxpoc.shakenbake.TestShakeAndBakeHeader@2855e552]" name="testSbHeaderElementPlacements" duration-ms="16" started-at="2013-07-15T17:23:57Z" data-provider="tafDataProvider" finished-at="2013-07-15T17:23:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fox-search-bing-logo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//*[@id="spyglass"]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSbHeaderElementPlacements -->
+        <test-method status="PASS" signature="testSbHeaderElementPlacements(java.lang.String, java.lang.String)[pri:0, instance:test.etouch.foxpoc.shakenbake.TestShakeAndBakeHeader@2855e552]" name="testSbHeaderElementPlacements" duration-ms="15" started-at="2013-07-15T17:23:57Z" data-provider="tafDataProvider" finished-at="2013-07-15T17:23:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fox-search-buttons]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//*[@id="ntwscopes"]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSbHeaderElementPlacements -->
+        <test-method status="PASS" signature="testSbHeaderElementPlacements(java.lang.String, java.lang.String)[pri:0, instance:test.etouch.foxpoc.shakenbake.TestShakeAndBakeHeader@2855e552]" name="testSbHeaderElementPlacements" duration-ms="16" started-at="2013-07-15T17:23:57Z" data-provider="tafDataProvider" finished-at="2013-07-15T17:23:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fox-search-fox-button]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//*[@id="ntwscopes"]/li[1]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSbHeaderElementPlacements -->
+        <test-method status="PASS" signature="testSbHeaderElementPlacements(java.lang.String, java.lang.String)[pri:0, instance:test.etouch.foxpoc.shakenbake.TestShakeAndBakeHeader@2855e552]" name="testSbHeaderElementPlacements" duration-ms="13" started-at="2013-07-15T17:23:57Z" data-provider="tafDataProvider" finished-at="2013-07-15T17:23:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fox-search-web-button]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//*[@id="ntwscopes"]/li[2]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSbHeaderElementPlacements -->
+        <test-method status="PASS" signature="testSbHeaderElementPlacements(java.lang.String, java.lang.String)[pri:0, instance:test.etouch.foxpoc.shakenbake.TestShakeAndBakeHeader@2855e552]" name="testSbHeaderElementPlacements" duration-ms="12" started-at="2013-07-15T17:23:57Z" data-provider="tafDataProvider" finished-at="2013-07-15T17:23:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sb-header-container]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/html/body/header]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSbHeaderElementPlacements -->
+        <test-method status="PASS" signature="testSbHeaderElementPlacements(java.lang.String, java.lang.String)[pri:0, instance:test.etouch.foxpoc.shakenbake.TestShakeAndBakeHeader@2855e552]" name="testSbHeaderElementPlacements" duration-ms="15" started-at="2013-07-15T17:23:57Z" data-provider="tafDataProvider" finished-at="2013-07-15T17:23:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sb-logo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//*[@id="shakeNBakeLogo"]/a[1]/span]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSbHeaderElementPlacements -->
+        <test-method status="PASS" signature="testSbMsnHeaderMenuItemTextAndLinks(java.lang.String, java.lang.String)[pri:0, instance:test.etouch.foxpoc.shakenbake.TestShakeAndBakeHeader@2855e552]" name="testSbMsnHeaderMenuItemTextAndLinks" duration-ms="28" started-at="2013-07-15T17:23:57Z" data-provider="tafDataProvider" finished-at="2013-07-15T17:23:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[More]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://specials.msn.com/alphabet.aspx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSbMsnHeaderMenuItemTextAndLinks -->
+        <test-method status="PASS" signature="testSbMsnHeaderMenuItemTextAndLinks(java.lang.String, java.lang.String)[pri:0, instance:test.etouch.foxpoc.shakenbake.TestShakeAndBakeHeader@2855e552]" name="testSbMsnHeaderMenuItemTextAndLinks" duration-ms="52" started-at="2013-07-15T17:23:57Z" data-provider="tafDataProvider" finished-at="2013-07-15T17:23:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Outlook.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://mail.live.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSbMsnHeaderMenuItemTextAndLinks -->
+        <test-method status="PASS" signature="testSbMsnHeaderMenuItemTextAndLinks(java.lang.String, java.lang.String)[pri:0, instance:test.etouch.foxpoc.shakenbake.TestShakeAndBakeHeader@2855e552]" name="testSbMsnHeaderMenuItemTextAndLinks" duration-ms="31" started-at="2013-07-15T17:23:57Z" data-provider="tafDataProvider" finished-at="2013-07-15T17:23:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mobile]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://onmobile.msn.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSbMsnHeaderMenuItemTextAndLinks -->
+        <test-method status="PASS" signature="testSbMsnHeaderMenuItemTextAndLinks(java.lang.String, java.lang.String)[pri:0, instance:test.etouch.foxpoc.shakenbake.TestShakeAndBakeHeader@2855e552]" name="testSbMsnHeaderMenuItemTextAndLinks" duration-ms="34" started-at="2013-07-15T17:23:57Z" data-provider="tafDataProvider" finished-at="2013-07-15T17:23:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bing]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.bing.com/search?FORM=FOXSP]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSbMsnHeaderMenuItemTextAndLinks -->
+        <test-method status="PASS" signature="testSbMsnHeaderMenuItemTextAndLinks(java.lang.String, java.lang.String)[pri:0, instance:test.etouch.foxpoc.shakenbake.TestShakeAndBakeHeader@2855e552]" name="testSbMsnHeaderMenuItemTextAndLinks" duration-ms="35" started-at="2013-07-15T17:23:57Z" data-provider="tafDataProvider" finished-at="2013-07-15T17:23:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rewards]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.bing.com/explore/rewards-msn?publ=MSN&crea=ME_Money]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSbMsnHeaderMenuItemTextAndLinks -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.etouch.foxpoc.shakenbake.TestShakeAndBakeHeader@2855e552]" name="tearDown" is-config="true" duration-ms="130" started-at="2013-07-15T17:23:58Z" finished-at="2013-07-15T17:23:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.etouch.foxpoc.shakenbake.TestShakeAndBakeHeader -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

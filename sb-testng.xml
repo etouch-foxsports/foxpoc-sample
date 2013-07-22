@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	<parameter name="configFileName" value="src/test/resources/config.properties" />
+	<!-- Please edit this param to pass your test data xls file location -->
+	<parameter name="testDataFilePath" value="./src/test/resources/TestShakeAndBakeHomePage.xls" />
+	<test name="Test">
+		<classes>
+			 <class name="test.etouch.foxpoc.shakenbake.TestShakeAndBakeHeader" />
+		     <!--<class name="test.etouch.foxpoc.shakenbake.TestShakeAndBakeFooter" />
+		   <class name="test.etouch.foxpoc.shakenbake.TestShakeAndBakeBlog" />	 -->
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
